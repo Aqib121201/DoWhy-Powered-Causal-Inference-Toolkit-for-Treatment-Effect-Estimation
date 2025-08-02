@@ -227,7 +227,7 @@ DoWhy-Powered-Causal-Inference-Toolkit/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/DoWhy-Powered-Causal-Inference-Toolkit.git
+git clone https://github.com/Aqib121201/DoWhy-Powered-Causal-Inference-Toolkit.git
 cd DoWhy-Powered-Causal-Inference-Toolkit
 ```
 
