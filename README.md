@@ -1,10 +1,10 @@
 # DoWhy-Powered Visual Toolkit for Causal Inference & Treatment Effect Estimation
 
-## 🧠 Abstract
+##  Abstract
 
-This project implements a comprehensive visual toolkit for causal inference and treatment effect estimation using the DoWhy framework. The toolkit provides interactive visualization of causal graphs, backdoor paths, do-calculus logic, and average treatment effect (ATE) estimation. The implementation demonstrates causal inference methodologies through simulated healthcare intervention scenarios, enabling researchers and practitioners to understand and apply causal inference techniques in real-world applications.
+This project implements a comprehensive visual toolkit for causal inference and treatment effect estimation using the DoWhy framework. The toolkit provides interactive visualization of causal graphs, backdoor paths, do calculus logic, and average treatment effect (ATE) estimation. The implementation demonstrates causal inference methodologies through simulated healthcare intervention scenarios, enabling researchers and practitioners to understand and apply causal inference techniques in real world applications.
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Causal inference is fundamental to understanding treatment effects in observational studies, particularly in healthcare where randomized controlled trials (RCTs) may be impractical or unethical. The challenge lies in identifying causal relationships from observational data while accounting for confounding variables and selection bias. Traditional statistical methods often fail to distinguish correlation from causation, leading to potentially erroneous conclusions about treatment effectiveness.
 
@@ -18,7 +18,7 @@ Causal inference is fundamental to understanding treatment effects in observatio
 - Pearl, J. (2009). *Causality: Models, Reasoning, and Inference*. Cambridge University Press.
 - Hernán, M. A., & Robins, J. M. (2020). *Causal Inference: What If*. Chapman & Hall/CRC.
 
-## 📊 Dataset Description
+## Dataset Description
 
 ### Simulated Healthcare Dataset
 The toolkit utilizes a simulated dataset representing a healthcare intervention study with the following characteristics:
@@ -44,14 +44,14 @@ The toolkit utilizes a simulated dataset representing a healthcare intervention 
 
 **Preprocessing Steps:**
 - Missing value imputation using median for continuous variables
-- One-hot encoding for categorical variables
+- One hot encoding for categorical variables
 - Feature scaling using StandardScaler
 - Balance assessment using propensity score matching
 
-## 🧪 Methodology
+##  Methodology
 
 ### Causal Inference Framework
-The toolkit implements the four-step causal inference process as defined by DoWhy:
+The toolkit implements the four step causal inference process as defined by DoWhy:
 
 1. **Modeling:** Specification of causal graph (DAG) with nodes and edges
 2. **Identification:** Determination of estimands using do-calculus
@@ -99,7 +99,7 @@ Where $Y(1)$ and $Y(0)$ represent potential outcomes under treatment and control
 - **Treatment Effect Distribution:** Histograms and density plots of estimated effects
 - **Sensitivity Analysis:** Robustness checks for causal assumptions
 
-## 📈 Results
+##  Results
 
 ### Treatment Effect Estimation Results
 
@@ -121,7 +121,7 @@ Where $Y(1)$ and $Y(0)$ represent potential outcomes under treatment and control
 3. Sensitivity analysis confirms causal assumptions hold under reasonable violations
 4. Backdoor paths are properly controlled through covariate adjustment
 
-## 🧠 Explainability & Interpretability
+##  Explainability & Interpretability
 
 ### Causal Graph Interpretation
 The toolkit provides interactive visualization of causal relationships, enabling users to:
@@ -142,7 +142,7 @@ The visualizations help clinicians and researchers:
 - Assess external validity of findings
 - Communicate results to stakeholders
 
-## ⚗️ Experiments & Evaluation
+##  Experiments & Evaluation
 
 ### Experimental Design
 1. **Baseline Comparison:** Traditional regression vs. causal methods
@@ -160,10 +160,10 @@ The visualizations help clinicians and researchers:
 - **Graph Structure:** Sensitivity to DAG specification
 - **Estimation Method:** Comparison of different approaches
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
-📦 DoWhy-Powered-Causal-Inference-Toolkit/
+DoWhy-Powered-Causal-Inference-Toolkit/
 │
 ├── 📁 data/                   # Raw & processed datasets
 │   ├── raw/                  # Original datasets
@@ -217,7 +217,7 @@ The visualizations help clinicians and researchers:
 └── run_pipeline.py
 ```
 
-## 💻 How to Run
+## How to Run
 
 ### Prerequisites
 - Python 3.8+
@@ -266,7 +266,7 @@ docker build -t causal-toolkit .
 docker run -p 8501:8501 causal-toolkit
 ```
 
-## 🧪 Unit Tests
+##  Unit Tests
 
 Run the test suite to ensure code quality:
 ```bash
@@ -279,7 +279,7 @@ Test coverage includes:
 - Visualization components
 - Data preprocessing utilities
 
-## 📚 References
+##  References
 
 1. Pearl, J. (2009). *Causality: Models, Reasoning, and Inference*. Cambridge University Press.
 2. Hernán, M. A., & Robins, J. M. (2020). *Causal Inference: What If*. Chapman & Hall/CRC.
@@ -287,23 +287,22 @@ Test coverage includes:
 4. Imbens, G. W., & Rubin, D. B. (2015). *Causal Inference in Statistics, Social, and Biomedical Sciences*. Cambridge University Press.
 5. Rosenbaum, P. R., & Rubin, D. B. (1983). *The central role of the propensity score in observational studies for causal effects*. Biometrika, 70(1), 41-55.
 
-## ⚠️ Limitations
+##  Limitations
 
 - **Assumption Dependence:** Results rely on correct specification of causal graph
 - **Unmeasured Confounding:** Cannot account for unobserved variables
 - **External Validity:** Results may not generalize to different populations
 - **Data Quality:** Sensitivity to measurement error and missing data
 
-## 📄 PDF Report
+##  PDF Report
 
 [📄 Download Full Academic Report](./report/Causal_Inference_Report.pdf)
 
-## 🧠 Contribution & Acknowledgements
+##  Contribution & Acknowledgements
 
-This project was developed as a demonstration of causal inference methodologies using the DoWhy framework. The toolkit is designed for educational and research purposes, providing a foundation for understanding and applying causal inference techniques in real-world scenarios.
+This project was developed as a demonstration of causal inference methodologies using the DoWhy framework. The toolkit is designed for educational and research purposes, providing a foundation for understanding and applying causal inference techniques in real world scenarios.
 
 **Acknowledgements:**
-- DoWhy development team for the excellent causal inference library
 - The causal inference research community for foundational work
 - Healthcare domain experts for clinical context and validation
 
@@ -311,4 +310,4 @@ This project was developed as a demonstration of causal inference methodologies 
 
 **License:** MIT License  
 **Version:** 1.0.0  
-**Last Updated:** December 2024
+**Last Updated:** August 2025
