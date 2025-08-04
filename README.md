@@ -294,9 +294,6 @@ Test coverage includes:
 - **External Validity:** Results may not generalize to different populations
 - **Data Quality:** Sensitivity to measurement error and missing data
 
-##  PDF Report
-
-[📄 Download Full Academic Report](./report/Causal_Inference_Report.pdf)
 
 ##  Contribution & Acknowledgements
 
